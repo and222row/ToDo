@@ -12,7 +12,7 @@ import Login from "./components/Login/Login";
 import Register from "./components/Register/Register";
 import ProtectedRoute from "./components/ProtectedRoute/ProtectedRoute";
 import { Offline, Online } from "react-detect-offline";
-let route = createBrowserRouter([
+let route = createHashRouter([
   {
     path: "",
     element: (
